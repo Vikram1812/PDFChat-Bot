@@ -2,16 +2,12 @@
 
 This is a Python program called the PDFChat Bot lets you communicate with several PDF documents at once. You can use natural language to ask questions about the PDFs, and the application will respond with pertinent information based on the documents' contents. This software makes use of a language model to provide precise responses to your queries. Note that the app will only reply to inquiries about the PDFs that are loaded.
 
-##Working
+## Working
 The application follows these steps to provide responses to your questions:
 
-    PDF Loading: The app reads multiple PDF documents and extracts their text content.
-
-    Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
-
-    Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
-
-    Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
-
-    Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
+PDF Loading: The app reads multiple PDF documents and extracts their text content.
+Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
+Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
+Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
+Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
